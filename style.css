@@ -1,0 +1,273 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 15px;
+    background-color: rgb(117,99,99);
+    backdrop-filter: blur(20px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.logo a{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.logo a span{
+    color: orange;
+}
+.logo a:hover{
+    color: orange;
+    text-shadow: 0 0 25px orangered;
+}
+.navbar a{
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: large;
+}
+.navbar a:hover{
+    color: orange;
+    text-decoration: underline;
+}
+.contact{
+    background-color: white;
+    border-radius: 10px;
+
+}
+.contact a:hover{
+    color:white;
+    background-color: orange;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px orangered;
+}
+.contact a{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    color:black;
+    padding: 15px 20px;
+}
+.home{
+    width:100%;
+    height: 100vh;
+    padding: 40px 8% 0px;
+    display: flex;
+    align-items: center;
+    gap:15rem;
+}
+.home .content{
+    max-width: 800px;
+}
+.home .content h3{
+    font-size: 22px;
+}
+.home h2 span{
+    color: orange;
+}
+p{
+   padding-bottom: 20px;
+}
+.btn1{
+    border: 2px solid white;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    border-radius: 10px;   
+}
+.btn2{
+    border: 2px solid white;
+    width: 130px;
+    height: 40px;
+    background-color:orange;
+    color: black;
+    font-size: medium;
+    border-radius: 10px; 
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 23px rgb(247, 135, 94);
+    border: 2px solid orangered;
+}
+.btn2:hover{
+    background-color: orangered;
+    color: white;
+    box-shadow: 0px 0px 23px rgb(242, 97, 97);
+}
+.home img{
+    border-radius: 50%;
+    width: 90%;
+    height: 50%;
+}
+
+/* About us */
+
+.aboutUs{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 100vh;
+    width:100% ;
+    margin-top: 90px; 
+    padding: 40px 8% 0px;
+}
+.content2{
+    justify-content: right;
+    justify-items: right;
+    padding: 150px;
+}
+.aboutUs span{
+     color: orangered;
+}
+.aboutUs img{
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 90px;
+    border-radius: 50%;
+    height:550px;
+    width:400px;
+    box-shadow:0px 0px 23px rgb(224, 79, 26);
+}
+.content2 p{
+    font: size 50px;
+}
+
+/* Education */
+
+.education{
+    background-color: beige;
+    width:100%;
+    height: 100vh;
+    margin-top: 75px;
+    padding-top: 80px;
+    text-align: center;       
+}
+table{
+    background-color: rgb(203, 210, 208);
+    margin-top: 40px;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid red;
+    width: 700px;
+    height: 500px;
+    box-shadow: 0px 0px 23px rgb(247, 135, 94);
+}
+.education h2{
+    font-weight: bolder;
+    font-size: 40px;
+    color: brown;
+}
+.education h2:hover{
+    
+    text-shadow: 0px 0px 23px rgb(197, 24, 8);
+    color: blue;
+}
+
+/* Experience */
+
+.Experience{
+    background-color: rgb(17, 17, 17);
+    width:100%;
+    height: 100vh;
+    margin-top: 75px;
+    padding-top: 80px;
+    text-align: center; 
+    display: flex; 
+}
+.Experience img{
+    width: 800px;
+    height: 600px;
+    padding: 20px;
+}
+.Experience  ul{
+    padding: 100px;
+    font-size: 50px;
+}
+.Experience ul li{
+    list-style-type: square;
+    color: red;
+    padding: 5px;
+}
+
+/* Contact me */
+
+.contact1{
+    width:100%;
+    height: 100vh;
+    margin-top: 75px;
+    padding-top: 80px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact1 h2{
+    font-size: 40px;
+}
+.contact1 span{
+      color: orangered;
+}
+
+.form{
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.form input,textarea{
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form button{
+    width: 30%;
+    padding: 10px;
+    background-color:rgb(163, 169, 169);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.social-link{
+    border: 2px solid white;
+    height: 100px;
+    width: 90px;
+}
+
+
+
+
